@@ -8,9 +8,9 @@ const Weather = (props) =>{
         <div className="cards pt-4">
         <h1 style={{fontWeight: 'bold', fontFamily: '"Cormorant SC", serif'}}>
                 {props.city} , {props.country}</h1>
-           <h5 className="py-4">
+            <h5 className="py-4">
                <i className={`wi ${props.weatherIcon} display-1`}/>
-           </h5>
+           </h5> 
            {props.temp_celsius ?(
             <h1 className="py-2">{props.temp_celsius}<span className="blink_me">&deg;</span> C </h1>
            ):null}

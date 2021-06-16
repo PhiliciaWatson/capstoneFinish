@@ -109,7 +109,7 @@ class Home extends React.Component{
     return(
     <div id="body" className="text-center">
       <section className="container-fluid position-relative" id="section">
-        <h1 className="position-absolute top-50 translate-middle bg-light p-3" id="title">Welcome <br/>TO CINCY TRAVELS</h1>
+        <h1 className="position-absolute top-50 start-50 translate-middle bg-light p-3" id="title">Welcome <br/>TO CINCY TRAVELS</h1>
       </section>
       <section>
 
@@ -117,7 +117,7 @@ class Home extends React.Component{
 
       </section>
     {/* IMAGES BELOW */}
-    <section className="container-fluid z-index-1 d-flex justify-content-end text-center mt-4">
+    <section className="container-fluid d-flex justify-content-end text-center mt-4">
       <div className="col-sm-8 p-5">
         <div className="card rounded-0 shadow-lg">
           <div className="card-body">
@@ -158,13 +158,13 @@ class Home extends React.Component{
         </div>
       </div>
     </section>
-     <section className="container-fluid m-0 p-0 d-flex justify-content-center">
+     {/* <section className="container-fluid m-0 p-0 d-flex justify-content-center">
       <div className="ratio mt-5" id="video">
         <iframe src="https://www.youtube.com/embed/bEGihAPfL8o?playlist=bEGihAPfL8o&loop=1&autoplay=1&controls=0&showinfo=0&rel=0&mute=1" frameborder="0"></iframe>
 
       </div>
      
-    </section>
+    </section> */}
     <section className="container-fluid text-light bg-dark p-5">
       <h1 id="heading">THANK YOU! <br />FOR CHOOSING <span style={{color:'#F9CC87'}}>CINCY TRAVELS</span></h1>
       <h6 style={{fontSize: 20,fontWeight:"bold", color: '#F9CC87 '}}> TRAVEL • TOUR • EXPLORE</h6>
