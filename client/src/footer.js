@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './footer.css'
+import { Link } from 'react-router-dom';
 // import github from './assets/assets/githubicon.png';
 // import linkedin from './assets/assets/linkedinicon.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -22,7 +23,7 @@ class Footer extends React.Component
     <div className="footer-columns">
      <div ClassName="footeroptions" id="footer-left">
      <ul className="nav-item">
-      <a className="nav-link active" aria-current="page" href="/home">Home</a>
+      <Link className="nav-link active" aria-current="page" href="/">Home</Link>
       </ul>
         <ul className="nav-item">
               <Link className="nav-link" href="/about">About</Link>
