@@ -25,13 +25,13 @@ class Footer extends React.Component
       <a className="nav-link active" aria-current="page" href="/home">Home</a>
       </ul>
         <ul className="nav-item">
-              <a className="nav-link" href="/about">About</a>
+              <Link className="nav-link" href="/about">About</Link>
         </ul>
         <ul className="nav-item">
-              <a className="nav-link" href="/contact">Contact</a>
+              <Link className="nav-link" href="/contact">Contact</Link>
         </ul>
         <ul className="nav-item">
-              <a className="nav-link" href="/add">Add Attractions</a>
+              <Link className="nav-link" href="/add">Add Attractions</Link>
         </ul>
       </div>
       <div className="dropdown-container">
@@ -40,21 +40,21 @@ class Footer extends React.Component
                 Seasons
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
-                <ul><a className="dropdown-item" href="https://cincinnatiusa.com/trip-ideas/spring">Spring</a></ul>
-                <ul><a className="dropdown-item" href="https://cincinnatiusa.com/trip-ideas/summer">Summer</a></ul>
-                <ul><a className="dropdown-item" href="https://cincinnatiusa.com/trip-ideas/fall">Autumn</a></ul>
-                <ul><a className="dropdown-item" href="https://cincinnatiusa.com/trip-ideas/winter">Winter</a></ul>
+                <ul><Link className="dropdown-item" href="https://cincinnatiusa.com/trip-ideas/spring">Spring</Link></ul>
+                <ul><Link className="dropdown-item" href="https://cincinnatiusa.com/trip-ideas/summer">Summer</Link></ul>
+                <ul><Link className="dropdown-item" href="https://cincinnatiusa.com/trip-ideas/fall">Autumn</Link></ul>
+                <ul><Link className="dropdown-item" href="https://cincinnatiusa.com/trip-ideas/winter">Winter</Link></ul>
               </ul>
               </ul>
               <ul className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Destinations
-              </a>
+              </Link>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <ul><a className="dropdown-item" href="https://wandercincinnati.com/2019/12/01/over-the-rhine-cincinnati/">Over the Rhine</a></ul>
-                <ul><a className="dropdown-item" href="https://www.cincinnatiparks.com/river-parks/smale-riverfront-park/">Smale Riverfront Park</a></ul>
-                <ul><a className="dropdown-item" href="https://www.downtowncincinnati.com/">Downtown</a></ul>
-                <ul><a className="dropdown-item" href="https://www.meetnky.com/">Covington/Northern Kentucky</a></ul>
+                <ul><Link className="dropdown-item" href="https://wandercincinnati.com/2019/12/01/over-the-rhine-cincinnati/">Over the Rhine</Link></ul>
+                <ul><Link className="dropdown-item" href="https://www.cincinnatiparks.com/river-parks/smale-riverfront-park/">Smale Riverfront Park</Link></ul>
+                <ul><Link className="dropdown-item" href="https://www.downtowncincinnati.com/">Downtown</Link></ul>
+                <ul><Link className="dropdown-item" href="https://www.meetnky.com/">Covington/Northern Kentucky</Link></ul>
               </ul>
               </ul>
               <ul className="nav-item dropdown">
@@ -62,14 +62,14 @@ class Footer extends React.Component
                 Experiences
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <ul><a className="dropdown-item" href="https://www.citybeat.com/arts-culture">Culture</a></ul>
-                <ul><a className="dropdown-item" href="https://www.tripadvisor.com/Attractions-g5503747-Activities-c61-The_Cincinnati_Region.html">Outdoors</a></ul>
-                <ul><a className="dropdown-item" href="https://photos.citybeat.com/25-essential-foods-every-cincinnati-visitor-should-try/?slide=1&admin-ajaxwew">Food</a></ul>
-                <ul><a className="dropdown-item" href="https://anniewearsit.com/cincinnati-official-travel-guide/">Luxury</a></ul>
+                <ul><Link className="dropdown-item" href="https://www.citybeat.com/arts-culture">Culture</Link></ul>
+                <ul><Link className="dropdown-item" href="https://www.tripadvisor.com/Attractions-g5503747-Activities-c61-The_Cincinnati_Region.html">Outdoors</Link></ul>
+                <ul><Link className="dropdown-item" href="https://photos.citybeat.com/25-essential-foods-every-cincinnati-visitor-should-try/?slide=1&admin-ajaxwew">Food</Link></ul>
+                <ul><Link className="dropdown-item" href="https://anniewearsit.com/cincinnati-official-travel-guide/">Luxury</Link></ul>
               </ul>
             </ul>
             <ul className="nav-item">
-              <a className="nav-link" href="/attractions">View Attractions</a>
+              <Link className="nav-link" href="/attractions">View Attractions</Link>
          </ul>
           <h3 id="kable-title"></h3>
         </div>
@@ -83,8 +83,8 @@ class Footer extends React.Component
     <div className="shelby-container" id="shelby-footer">
     <h3 id="dom-title">Domynique Shelby</h3>
     <div className="shelby-icons">
-    <a href="https://github.com/dshelby24" ><FontAwesomeIcon icon={faGithub}/></a>
-    <a href="https://www.linkedin.com/in/domynique-v-shelby/" ><FontAwesomeIcon icon={faLinkedin}/></a>
+    <Link href="https://github.com/dshelby24" ><FontAwesomeIcon icon={faGithub}/></Link>
+    <Link href="https://www.linkedin.com/in/domynique-v-shelby/" ><FontAwesomeIcon icon={faLinkedin}/></Link>
     </div>
     </div>
     <div className="watson-container">
@@ -92,8 +92,8 @@ class Footer extends React.Component
       <h3 id="phil-title">Philicia Watson</h3>
     </div>
     <div className="watson-icons">
-        <a href="https://github.com/PhiliciaWatson" ><FontAwesomeIcon icon={faGithub}/></a>
-        <a href="https://www.linkedin.com/in/philicia-watson-b26bba1b1/" ><FontAwesomeIcon icon={faLinkedin}/></a>
+        <Link href="https://github.com/PhiliciaWatson" ><FontAwesomeIcon icon={faGithub}/></Link>
+        <Link href="https://www.linkedin.com/in/philicia-watson-b26bba1b1/" ><FontAwesomeIcon icon={faLinkedin}/></Link>
     </div>
     </div>
     <div className="hall-container">
@@ -101,8 +101,8 @@ class Footer extends React.Component
     <h3 id="all-title">Allison Hall</h3>
     </div>
     <div className="hall-icons">
-    <a href="https://github.com/hallallisongrace" ><FontAwesomeIcon icon={faGithub}/></a>
-    <a href="https://linkedin.com/in/hallallisongrace" ><FontAwesomeIcon icon={faLinkedin}/></a>
+    <Link href="https://github.com/hallallisongrace" ><FontAwesomeIcon icon={faGithub}/></Link>
+    <Link href="https://linkedin.com/in/hallallisongrace" ><FontAwesomeIcon icon={faLinkedin}/></Link>
      </div>
      </div>
 <div className="legalinfo">

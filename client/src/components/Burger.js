@@ -6,26 +6,26 @@ return (
 <div>
   <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div className="container-fluid bg-light">
-      <a className="navbar-brand" href="/">Cincy Travels</a>
+      <Link className="navbar-brand" href="/">Cincy Travels</Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
       </button>
       <div className="collapse navbar-collapse text-center navbar-nav-scroll" id="navbarSupportedContent">
         <ul className="navbar-nav mx-auto mb-2 mb-lg-0 bg-light">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/">Home</a>
+            <Link className="nav-link active" aria-current="page" href="/">Home</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/about">About</a>
+            <Link className="nav-link" href="/about">About</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/contact">Contact</a>
+            <Link className="nav-link" href="/contact">Contact</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/add">Add Attractions</a>
+            <Link className="nav-link" href="/add">Add Attractions</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/attractions">View Attractions</a>
+            <Link className="nav-link" href="/attractions">View Attractions</Link>
           </li>
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
